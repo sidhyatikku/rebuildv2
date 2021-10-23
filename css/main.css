@@ -1,0 +1,161 @@
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 15px;
+
+}
+
+.logo_dsm {
+  height: 12vw;
+  width: auto;
+}
+
+.header {
+  margin-top: 5vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.header_texts {
+  margin-left: 2vw;
+}
+
+.header_text_large {
+  font-weight: 700;
+  font-size: 6vw;
+  color: pink;
+  background-color: pink;
+}
+
+.header_links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1vh;
+}
+
+.links {
+  color: lightgray;
+  background-color: lightgray;
+  text-decoration: none;
+  font-size: 1vw;
+}
+
+.main_content {
+  margin-top: 3vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: 22vw;
+}
+
+.side_navbar {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3vh;
+}
+
+.body_content {
+  margin-left: 4.5vw;
+}
+
+.content_main {
+  margin-bottom: 3vw;
+}
+
+.content_header {
+  color: beige;
+  background-color: beige;
+  font-weight: 600;
+  font-size: 1.6vw;
+  margin-bottom: 1vh;
+}
+
+.content_image {
+  height: 20vw;
+  width: 43.5vw;
+  color: lightblue;
+  background-color: lightblue;
+}
+
+.content_desc {
+  width: 43.5vw;
+  margin-top: 1vh;
+  font-size: 0.9vw;
+  color: aliceblue;
+  background-color: aliceblue;
+}
+
+.footer {
+  margin-left: 17.25vw;
+  width: 60vw;
+  margin-bottom: 5vw;
+  font-size: 0.7vw;
+}
+
+.footer_text {
+  margin-top: 2vh;
+  display: block;
+}
+
+.company_name {
+  float: left;
+  color: gray;
+  background: gray;
+}
+
+.footer_links {
+  float: right;
+}
+
+.links2 {
+  color: lightgray;
+  background: lightgray;
+  text-decoration: none;
+  margin-left: 0.5vw;
+}
+
+@media only screen and (max-height: 900px) and (orientation: portrait) {
+
+  .logo_dsm {
+    height: 18vw;
+  }
+  .links {
+    font-size: 1.2vw;
+  }
+  .content_header {
+    font-size: 2vw;
+  }
+  .content_main {
+    margin-bottom: 5vw;
+  }
+  .content_image {
+    height: 25vw;
+  }
+  .footer {
+    font-size: 1vw;
+    margin-bottom: 10vw;
+  }
+}
+
+@media only screen and (min-width: 750px) and (orientation: portrait) {
+
+  .logo_dsm {
+    height: 18vw;
+  }
+  .links {
+    font-size: 1.2vw;
+  }
+  .content_header {
+    font-size: 2vw;
+  }
+  .content_main {
+    margin-bottom: 5vw;
+  }
+  .content_image {
+    height: 25vw;
+  }
+  .footer {
+    font-size: 1vw;
+    margin-bottom: 10vw;
+  }
+}
